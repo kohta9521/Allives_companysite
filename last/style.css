@@ -15,4 +15,17 @@
     width: 100%;
     background-image: linear-gradient(90deg, rgba(255, 55, 216, 1), rgba(161, 15, 255, 1));
     height: 7000px;
+    font-family: "Quantum", sans-serif;
+}
+#header {
+    width: 100%;
+    height: 3%;
+    justify-content: space-between;
+}
+.header__logoname {
+    position: absolute;
+    top: 4%;
+    left: 3%;
+    font-size: 2.5rem;
+    color: white;
 }

@@ -40,14 +40,14 @@ nav {
     text-align: center;
     margin: 0 auto;
     color: #333;
-    font-size: 20px;
+    font-size: 30px;
     padding: 1rem;
     text-decoration: none;
     transition-duration: 0.2s;
   }
   
   nav .inner ul li a:hover {
-    color: white;
+    font-size: 35px;
   }
   
   .toggle-btn {
@@ -117,16 +117,16 @@ nav {
   }
 
 
-/* 粒子のタイポグラフィー　記述部分 */
-#wrapper{
-  /*描画されるテキストを中央寄せにする*/
-    display:flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #particle{
-    width:100%;
-    height: 100vh;
-    vertical-align: bottom;/*canvasタグ下に余白が生まれるのを防ぐ*/
-  }
+/* 波の記述部分*/
+.wave{
+position:relative;
+height:300px;
+}
+canvas{
+position: absolute;
+bottom: 30%;
+left:0;
+width: 100%;
+}
+
+
