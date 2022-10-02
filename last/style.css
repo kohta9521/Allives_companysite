@@ -8,6 +8,7 @@
     text-align:center;
     color:#fff;
     font-family: 'Pathway Gothic One', sans-serif;
+    font-family: '851ゴチカクット', sans-serif;
 }
 
 /* 本番記述 */
@@ -16,6 +17,7 @@
     background-image: linear-gradient(90deg, rgba(255, 55, 216, 1), rgba(161, 15, 255, 1));
     height: 7000px;
     font-family: "Quantum", sans-serif;
+
 }
 #header {
     width: 100%;

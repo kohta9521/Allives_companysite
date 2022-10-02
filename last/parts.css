@@ -124,7 +124,7 @@ height:300px;
 }
 canvas{
 position: absolute;
-bottom: 30%;
+bottom: 35%;
 left:0;
 width: 100%;
 }
@@ -146,7 +146,7 @@ width: 100%;
   color: white;
   font-size: 6rem;
   text-align: center;
-  margin-top: 30%;
+  margin-top: 40%;
 }
 .mainvisual__subtitle {
   display: block;
@@ -155,7 +155,71 @@ width: 100%;
   color: white;
   font-size: 1.5rem;
   text-align: center;
+  font-family: '851ゴチカクット', sans-serif;
 }
+/* 下から */
+
+.fadeUp{
+  animation-name:fadeUpAnime;
+  animation-duration: 6s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+  
+  @keyframes fadeUpAnime{
+    from {
+      opacity: 0;
+    transform: translateY(100px);
+    }
+  
+    to {
+      opacity: 1;
+    transform: translateY(0);
+    }
+  }
+
+
+/* 左から */
+
+.fadeLeft{
+  animation-name:fadeLeftAnime;
+  animation-duration: 6s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+  
+  @keyframes fadeLeftAnime{
+    from {
+      opacity: 0;
+    transform: translateX(-100px);
+    }
+  
+    to {
+      opacity: 1;
+    transform: translateX(0);
+    }
+  }
+  
+  /* 右から */
+  
+  .fadeRight{
+  animation-name:fadeRightAnime;
+  animation-duration: 6s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+  
+  @keyframes fadeRightAnime{
+    from {
+      opacity: 0;
+    transform: translateX(100px);
+    }
+  
+    to {
+      opacity: 1;
+    transform: translateX(0);
+    }
+  }
 
 
 /* footer */

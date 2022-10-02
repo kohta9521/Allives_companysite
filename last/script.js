@@ -115,7 +115,7 @@ function drawWave(canvas, color, alpha, zoom, delay) {
 	context.lineWidth = 2;//線の幅
     context.globalAlpha = alpha;
     context.beginPath(); //パスの開始
-    drawSine(canvas, info.t / 0.5, zoom, delay);
+    drawSine(canvas, info.t / 1, zoom, delay);
     context.stroke(); //線
 }
 
