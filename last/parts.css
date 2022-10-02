@@ -40,7 +40,7 @@ nav {
     text-align: center;
     margin: 0 auto;
     color: #333;
-    font-size: 20px;
+    font-size: 30px;
     padding: 1rem;
     text-decoration: none;
     transition-duration: 0.2s;
@@ -130,3 +130,6 @@ nav {
     height: 100vh;
     vertical-align: bottom;/*canvasタグ下に余白が生まれるのを防ぐ*/
   }
+
+
+
