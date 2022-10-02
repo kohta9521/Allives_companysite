@@ -185,7 +185,7 @@ init();
 function particleTextAnime() {
 
 $("#particle").particleText({
-		text: "C o l o r . i n c", // 表示させたいテキスト。改行の場合は<br>追加
+		text: "A l l i v e s . i n c", // 表示させたいテキスト。改行の場合は<br>追加
 		colors:["#000"], // パーティクルの色を複数指定可能
 		speed: "high",  // slow, middle, high の3つから粒子が集まる速さを選択
 	});

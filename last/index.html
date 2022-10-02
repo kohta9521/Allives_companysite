@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--=============Google Font ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="parts.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ローディング画面 -->
+    <div id="splash">
+        <div id="splash_text"></div>
+    </div>
+    
+    <div id="container">
+
+        <div id="header">
+            <h2 class="header__logoname">Allives</h2>
+                <div id="navArea">
+                    <nav>
+                        <div class="inner">
+                        <ul>
+                            <li><a href="#header">Top</a></li>	
+                            <li><a href="#concept">Concept</a></li>	
+                            <li><a href="#service">Service</a></li>	
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>	
+                        </ul>
+                        </div>
+                    </nav>
+                    <div class="toggle-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div id="mask"></div>
+                </div>
+        </div>
+        <div id="wrapper">
+            <canvas id="particle"></canvas>
+        </div>
+    </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="js/particleText.js"></script>
+        <script src="script.js"></script>
+</body>
+</html>
