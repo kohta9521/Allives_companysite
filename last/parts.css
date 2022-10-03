@@ -149,7 +149,7 @@ width: 100%;
   color: white;
   font-size: 6rem;
   text-align: center;
-  margin-top: 20%;
+  margin-top: 13%;
 
 }
 .mainvisual__subtitle {
@@ -329,7 +329,7 @@ border:1px solid rgb(255, 255, 255);
 
 /*about area*/
 .about {
-  width: 70%;
+  width: 75%;
   height: 50vh;
   margin: 40% auto;
 }
@@ -377,6 +377,19 @@ scroll_up ｜下から上へ出現
   margin: 0 auto;
   margin-top: -20%;
   background-color: #333;
+}
+.product__cardarea {
+  width: 80%;
+  height: 80vh;
+  display: flex;
+}
+.product__cards {
+  width: 80%;
+  height: 60%;
+  background-color: #fff;
+}
+.li1 {
+  display: flex;
 }
 
 
